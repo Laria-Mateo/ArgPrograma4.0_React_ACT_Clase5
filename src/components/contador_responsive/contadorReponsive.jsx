@@ -50,8 +50,8 @@ function ContadorResponsive() {
               <Heading>Contador</Heading>
             </VStack>
             <HStack spacing={4} align='center'>
-              <Button flex={1} colorScheme='facebook' onClick={AumentarContador} m={'5px'}>Aumentar</Button>
-              <Button flex={1} colorScheme='facebook' onClick={DecrementarContador } m={'5px'}>Decrementar</Button>
+              <Button flex={1} colorScheme='facebook' onClick={AumentarContador} m={'-5px'}>Aumentar</Button>
+              <Button flex={1} colorScheme='facebook' onClick={DecrementarContador } m={'-5px'} >Decrementar</Button>
             </HStack>
             <Text fontSize='xl'>{contador}</Text>
           </VStack>
